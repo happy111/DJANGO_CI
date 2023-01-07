@@ -3,7 +3,7 @@
 sudo cp -rf app.conf /etc/nginx/sites-enabled/app
 chmod 710 /var/lib/jenkins/workspace/Django_ci
 
-# sudo ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-enabled/app /etc/nginx/sites-available
 sudo nginx -t
 
 sudo systemctl start nginx
