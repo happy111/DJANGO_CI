@@ -7,6 +7,7 @@ else
     virtualenv -p python3 env
 fi
 
+echo $PWD
 source env/bin/activate
 
 
