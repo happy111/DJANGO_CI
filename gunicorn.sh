@@ -2,7 +2,7 @@
 
 source env/bin/activate
 
-cd /var/lib/jenkins/workspace/Django-ci/app
+cd /var/lib/jenkins/workspace/Django_ci/app
 
 python3 manage.py makemigrations
 python3 manage.py migrate
