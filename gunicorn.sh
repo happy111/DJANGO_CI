@@ -10,7 +10,7 @@ python3 manage.py collectstatic -- no-input
 
 echo "Migrations done"
 
-cd /var/lib/jenkins/workspace/Django-ci
+cd /var/lib/jenkins/workspace/Django_ci
 
 sudo su
 
